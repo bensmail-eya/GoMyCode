@@ -14,8 +14,8 @@ sepc:
             type: front-end
       spec:
          containers:
-         -  name: dockerfile-container
-            image: dockerfile
+         -  name: GoMyCode-container
+            image: GoMyCode
    replicas: 4
    selector:
       matchLabels:
