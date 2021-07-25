@@ -1,6 +1,7 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
+   namespace: GoMyCode
    name: GoMyCode-deployment
    labels:
       app: myapp
