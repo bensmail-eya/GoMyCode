@@ -15,7 +15,7 @@ sepc:
       spec:
          containers:
          -  name: GoMyCode-container
-            image: GoMyCode
+            image: bensmaileya/eya-app
    replicas: 4
    selector:
       matchLabels:
