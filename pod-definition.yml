@@ -1,0 +1,11 @@
+apiVersion: v1
+kind: Pod
+metadata:
+   name: GoMyCode-pod
+   labels:
+      app: myapp
+      type: front-end
+sepc:
+   containers:
+      - name: GoMyCode-container
+        image: bensmaileya/eya-app
