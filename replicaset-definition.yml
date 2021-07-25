@@ -14,8 +14,8 @@ sepc:
             type: front-end
       spec:
          containers:
-         -  name: DockerTesting-container
-            image: DockerTesting
+         -  name: dockerfile-container
+            image: dockerfile
    replicas: 4
    selector:
       matchLabels:
