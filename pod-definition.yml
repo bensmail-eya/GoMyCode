@@ -3,7 +3,7 @@ kind: Pod
 metadata:
    name: GoMyCode-pod
    labels:
-      app: myapp
+      app: myapp-pod
       type: front-end
 sepc:
    containers:
